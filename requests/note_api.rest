@@ -2,17 +2,17 @@ GET http://localhost:3001/api/notes
 
 ###
 
-GET http://localhost:3001/api/notes/64d539a0eb03130ae4935071
+GET http://localhost:3001/api/notes/64d67f3cc3819350a55c457e
 
 ###
-DELETE http://localhost:3001/api/notes/2
+DELETE http://localhost:3001/api/notes/64d67f3cc3819350a55c457e
 
 ###
 POST http://localhost:3001/api/notes
 Content-Type: application/json
 
 {
-  "content": "Postman is good for testing backend",
+  "content": "REST client is good for testing backend",
   "important": false
 }
 
@@ -21,6 +21,6 @@ PUT http://localhost:3001/api/notes/64d608e9a73b4fe0953a6a99
 Content-Type: application/json
 
 {
-  "content": "Css is easy",
-  "important": true
+  "content": "CSS is easy",
+  "important": false
 }
